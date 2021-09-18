@@ -3,7 +3,7 @@
 
 In simple words, it is a hashmap like data structure that directs you from a word to a document or a web page.
 
-#### What are the variations?
+### What are the variations?
 There are two types of inverted indexes:
 1. Record-level inverted index
 2. Word-level inverted index
