@@ -1,7 +1,7 @@
 # Sharding
 Sharding is a database architecture pattern related to horizontal partitioning[^1]. Ideally, it exemplifies a shared-nothing architecture.
 
-> Sharding involves breaking up one’s data into two or more smaller chunks, called logical shards. The logical shards are then distributed across separate database nodes, referred to as physical shards, which can hold multiple logical shards. Despite this, the data held within all the shards collectively represent an entire logical dataset.
+> Sharding involves breaking up one’s data into two or more smaller chunks, called **logical shards**. The logical shards are then distributed across separate database nodes, referred to as **physical shards**, which can hold multiple logical shards. Despite this, the data held within all the shards collectively represent an entire logical dataset.
 
 ### What is shared-nothing architecture?
 This means that the shards are autonomous; they don’t share any of the same data or computing resources.
