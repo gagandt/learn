@@ -14,3 +14,6 @@ In a vertically-partitioned table, entire columns are separated out and put into
 
 ![](https://assets.digitalocean.com/articles/understanding_sharding/DB_image_1_cropped.png)
 *src:* https://assets.digitalocean.com/articles/understanding_sharding/DB_image_1_cropped.png
+
+#### References
+1. https://www.digitalocean.com/community/tutorials/understanding-database-sharding
