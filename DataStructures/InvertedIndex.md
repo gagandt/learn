@@ -12,7 +12,7 @@ A record-level inverted index contains a list of references to documents for eac
 A word-level inverted index additionally contains the positions of each word within a document.
 The latter form offers more functionality, but needs more processing power and space to be created.
 
-#### Um... Example maybe?
+### Um... Example maybe?
 Consider the following three lines as three independent documents:
 ```
 Doc 1: "hello world",
@@ -39,14 +39,14 @@ structure            (3, 6)
 ```
 In the above representation of an inverted index, we're using a word level index. The words of the documents are the keys and the the values are the occurrences.
 
-#### What are the advantages?
+### What are the advantages?
 1. Inverted index is to allow fast full text searches, at a cost of increased processing when a document is added to the database.
 2. It is easy to develop.
 
-#### What are the disadvantages?
+### What are the disadvantages?
 1. Large storage overhead and high maintenance costs on update, delete and insert.
 
-#### What are the applications?
+### What are the applications?
 It is the most popular data structure used in document retrieval systems, used on a large scale for example in search engines.
 
 
